@@ -38,6 +38,8 @@ int romanToInt(char* s)
 			case 'M':
 				sum = sum + 1000;
 				break;
+			default:
+				break;
 		}
 		i++;
 	}
